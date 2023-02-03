@@ -1,6 +1,6 @@
 <?php
 
-namespace AngryMoustache\FilamentArchitect;
+namespace AngryMoustache\Architect;
 
 use Illuminate\Support\ServiceProvider;
 
