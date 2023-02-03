@@ -1,0 +1,64 @@
+{
+    "name": "angrymoustache/architect",
+    "description": "Test",
+    "keywords": [
+        "laravel",
+        "architect",
+        "admin",
+        "dashboard"
+    ],
+    "homepage": "https://github.com/angrymoustache/architect",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AngryMoustache",
+            "email": "mrclotion@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "spatie/laravel-package-tools": "^1.14.0",
+        "illuminate/contracts": "^9.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0",
+        "nunomaduro/collision": "^6.0",
+        "orchestra/testbench": "^7.0",
+        "pestphp/pest": "^1.21",
+        "pestphp/pest-plugin-laravel": "^1.1",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AngryMoustache\\Architect\\": "src",
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+
+        }
+    },
+    "scripts": {
+
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AngryMoustache\\Architect\\ArchitectServiceProvider"
+            ],
+            "aliases": {
+                "Architect": "AngryMoustache\\Architect\\Facades\\Architect"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
