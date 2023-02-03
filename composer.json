@@ -18,26 +18,15 @@
     ],
     "require": {
         "php": "^8.1",
-        "spatie/laravel-package-tools": "^1.14.0",
-        "illuminate/contracts": "^9.0"
     },
-    "require-dev": {
-        "laravel/pint": "^1.0",
-        "nunomaduro/collision": "^6.0",
-        "orchestra/testbench": "^7.0",
-        "pestphp/pest": "^1.21",
-        "pestphp/pest-plugin-laravel": "^1.1",
-        "phpunit/phpunit": "^9.5"
-    },
+    "require-dev": {},
     "autoload": {
         "psr-4": {
-            "AngryMoustache\\Architect\\": "src",
+            "AngryMoustache\\Architect\\": "src"
         }
     },
     "autoload-dev": {
-        "psr-4": {
-
-        }
+        "psr-4": {}
     },
     "scripts": {
 
